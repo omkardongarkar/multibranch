@@ -12,7 +12,7 @@ pipeline{
                 }                
             }
         }
-        stage('Display msg'){
+        stage('Display msg2'){
             when{
                 branch "dynamic_*"
             }
